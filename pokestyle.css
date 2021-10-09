@@ -1,0 +1,44 @@
+h1 {
+    background-color: rgb(1, 99, 228);
+    color: rgb(248, 165, 11);
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(251, 214, 2);
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.card-subtitle {
+    font-weight: lighter;
+    color: violet;
+    margin-top: 5px;
+}
+
+.card-image {
+    height: 180px;
+}
+
+#pokemongroup {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
